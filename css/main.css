@@ -99,16 +99,16 @@ a:hover{
 /*Perguntas*/
 
 .opc1{
-    width: 30%;
-    margin: 10px;
+    top: 70%; 
+    left: 10%; 
 }
 
 .opc2{
-    width: 30%;
-    margin: 10px;
+    top: 70%; 
+    left: 40%; 
 }
 
 .opc3{
-    width: 30%;
-    margin: 10px;
+    top: 70%; 
+    left: 70%; 
 }
