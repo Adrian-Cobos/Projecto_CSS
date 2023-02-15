@@ -35,6 +35,13 @@ a:hover{
     color: brown;
 }
 
+.pie{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+}
+
 .preg{
     background-color: rgba(128, 128, 128, 0.062);
     padding: 1%;
@@ -75,13 +82,17 @@ a:hover{
     }
 }
 
+abbr{
+    text-decoration: none;
+}
+
 #cohete{
     margin: 5%;
     position: absolute;
     width: 15%;
     transform: rotate(43deg);
     animation: cohete 8s linear infinite;
-    overflow: hidden; /*Para que el coheto solo pase por detrás de los demás elementos (también podría haber usado z-index)*/
+    overflow: hidden; /*Para que el cohete solo pase por detrás de los demás elementos (también podría haber usado z-index)*/
 }
 
 #boton1{
@@ -96,7 +107,7 @@ a:hover{
     transform: translate(-50%, -50%);
 }
 
-/*Perguntas*/
+/*Preguntas*/
 
 .opc1{
     top: 70%; 
