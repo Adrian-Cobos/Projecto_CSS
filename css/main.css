@@ -79,29 +79,27 @@ a:hover{
 
 @keyframes anim_tit {
     0% {
+        transform: rotate(20deg);
         font-size: 50px;
-        transform: rotate(30deg);
+        
     }
 
-    25% {
-        transform: rotate(-30deg);
+    50% {
+        transform: rotate(-20deg);
         font-size: 100px;
-    }
-
-    75% {
-        font-size: 50px;
-        transform: rotate(30deg);
     }
 
     100% {
-        transform: rotate(-30deg);
-        font-size: 100px;
+        transform: rotate(20deg);
+        font-size: 50px;
     }
+
 }
 
 #maintit{
+    margin-left: 5%;
     margin-top: 8%;
-    animation: anim_tit 3s infinite alternate;
+    animation: anim_tit 2.5s infinite alternate;
 }
 
 #cohete{
