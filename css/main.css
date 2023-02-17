@@ -27,12 +27,12 @@ a{
     text-decoration: none;
     color: whitesmoke;
     margin-left: 20px;
-    width:15%;
+    width:16%;
+    height: fit-content;
     transition: all 0.8s;
 }
 
 a:hover{
-    font-size: 126%;
     background-color: rgb(20, 65, 107);
 }
 
@@ -49,13 +49,19 @@ a:active{
 }
 
 .preg{
+    font-size: 20px;
     background-color: rgba(128, 128, 128, 0.062);
     padding: 1%;
     border-radius: 25px;
     width: 75%;
     margin-left: 10%;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 
+}
+
+h2{
+    margin-left: 11%; 
+    margin-bottom: 3%;
 }
 
 img{
@@ -185,9 +191,9 @@ abbr{
 }
 
 #tick{
-    width: 6%;
+    width: 10%;
     position: absolute;
-    top: 34%;
+    top: 4%;
     left: 4%;
 }
 
@@ -277,6 +283,50 @@ abbr{
     right: -4.5%;
 }
 
+#botroj{
+    width: 15%;
+    position: fixed;
+    bottom: 25%;
+    right: 35%; 
+}
+
+#poweroff{
+    width: 20%;
+    position: fixed;
+    top: 40%;
+    left: 55%; 
+}
+
+#sweat{
+    width: 20%;
+    position: fixed;
+    top: 43%;
+    left: 55%; 
+}
+
+#gamer{
+    border-radius: 50%;
+    width: 26%;
+    position: fixed;
+    top: 43%;
+    left: 60%; 
+}
+
+#good{
+    width: 26%;
+    position: fixed;
+    left: 35%;
+    bottom: 0%; 
+}
+
+video{
+    z-index: -1;
+    width: 25%;
+    position: fixed;
+    top: 0%;
+    left: 0%; 
+    
+}
 
 /*Créditos*/
 
@@ -293,14 +343,17 @@ ul{
     left: 38%; 
 }
 
+.cred_tit{
+    list-style:circle;
+    max-width: 75%;
+}
 .cred_info{
+    max-width: 75%;
     list-style: none;
     text-align: center;
     color: rgb(153, 152, 152);
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px #ffffff;
+    text-align: center;
 }
 
-.cred_tit{
-    list-style:circle;
-}
