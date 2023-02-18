@@ -158,6 +158,34 @@ abbr{
 
 /*Preguntas*/
 
+@keyframes asteroid {
+    0%{
+        transform: rotate(360deg);   
+    }
+    25%{
+        right: 55%;
+    }
+    75%{
+        top: 50%;
+    }
+    100% {
+        top: 60%;
+        transform: rotate(360deg);   
+    }
+
+}
+
+@keyframes cafetera {
+    from{
+        width: 25%;
+    }
+    to{
+        width: 30%;
+        transform: rotate(36deg);   
+    }
+
+}
+
 .opc1{
     position: absolute;
     top: 50%; 
@@ -205,23 +233,6 @@ abbr{
     animation: asteroid 15s infinite alternate-reverse;
 }
 
-@keyframes asteroid {
-    0%{
-        transform: rotate(360deg);   
-    }
-    25%{
-        right: 55%;
-    }
-    75%{
-        top: 50%;
-    }
-    100% {
-        top: 60%;
-        transform: rotate(360deg);   
-    }
-
-}
-
 #wifi{
     width: 13%;
     position: fixed;
@@ -262,17 +273,6 @@ abbr{
     position: fixed;
     top: 0%;
     left: 10%;
-}
-
-@keyframes cafetera {
-    from{
-        width: 25%;
-    }
-    to{
-        width: 30%;
-        transform: rotate(36deg);   
-    }
-
 }
 
 #dudas{
@@ -336,6 +336,14 @@ video{
     width: 57%;
     margin-left: 10%;
     margin-bottom: 30px;
+}
+
+#astro2{
+    width: 25%;
+    position: fixed;
+    top: 25%;
+    left: 5%; 
+    animation: cafetera 7s infinite alternate;
 }
 
 /*Créditos*/
