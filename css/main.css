@@ -374,3 +374,11 @@ ul{
     text-align: center;
 }
 
+#version{
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+}
+
